@@ -131,10 +131,9 @@ class qa_html_theme_layer extends qa_html_theme_base {
 	}
 	function doctype(){
 		// CSS Customizations will need this variables
-		global $p_path, $s_path;
+		global $p_path, $s_path,$p_url, $s_url;
 		global $qa_request;
 		if ( ($qa_request == 'admin/theme_options') and (qa_get_logged_in_level()>=QA_USER_LEVEL_ADMIN) ) {
-			//$this->theme_url , $this->theme_directory
 			$p_path = $this->theme_directory . 'patterns';
 			$s_path = $this->theme_directory . 'styles';
 			$p_url = $this->theme_url . 'patterns';

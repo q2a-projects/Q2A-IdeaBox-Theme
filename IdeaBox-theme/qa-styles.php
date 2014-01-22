@@ -1,6 +1,6 @@
 <?php
 // Background customizations
-global $p_path, $s_path;
+global $p_path, $s_path,$p_url, $s_url;
 $bg_file=qa_opt('qat_bg_image');
 // background image
 if ($bg_file=='Default Background')
@@ -8,7 +8,7 @@ if ($bg_file=='Default Background')
 elseif ($bg_file=='NO Background')
 	$bg_image='none';
 else 
-	$bg_image='url("' . $p_path . '/' . $bg_file . '.png")';
+	$bg_image='url("' . $p_url . '/' . $bg_file . '.png")';
 // background color
 if (qa_opt('qat_bg_color_on'))
 	$bg_color=qa_opt('qat_bg_color');

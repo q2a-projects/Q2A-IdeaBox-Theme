@@ -268,8 +268,10 @@ h2 {
 	color:#293d39;
 }
 .qa-logo-link, .qa-logo-link:hover {
-	color: #E4E4E4;
+	color: #e4e4e4;
+    display: block;
     font-family: "Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif !important;
+    padding: 10px 5px;
     text-decoration: none;
 }
 .qa-nav-user {
@@ -1096,7 +1098,6 @@ h2 {
 
 .qa-q-view-main {
 	float:left;
-	width:600px;
 }
 .qa-q-view-content {
 	font-size:14px;
@@ -1211,7 +1212,6 @@ h2 {
 }
 .qa-a-item-main {
 	float:left;
-	width:600px;
 	display:inline-block;
 } /* inline-block for IE */
 .qa-a-item-selected {
